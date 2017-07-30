@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
+        <meta charset="utf-8">
+        <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+        <link rel="icon" href="/favicon.ico">
+        <link src="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <title>The Clowder</title>
+        <style>
+            body {
+                color: #333;
+                background-color: #fff;
+                font-family: 'Chatura', monospace;
+                margin: 0;
+                padding: 0;
+                font-size: 16px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+            }
+            a:active,
+            a:visited,
+            a:hover,
+            a:link {
+                color: #333;
+                text-decoration: none;
+            }
+            .container {
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                padding: 42px 20px;
+            }
+            .creations {
+                display: flex;
+                margin: 40px 0 40px 0;
+            }
+            .creation {
+                margin: 0 10px 0 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+            }
+            .creation img {
+                margin: 0 0 20px 0;
+            }
+            .footer, .company {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .footer p, .company p {
+                font-size: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="company">
+                <img src="theclowder.png" height="216px" alt="The Clowder"/>
+                <p>
+                    <a href="mailto:mew@theclowder.software">mew<b>[at]</b>theclowder.software</a>
+                </p>
+            </div>
+            <div class="creations">
+                <div class="creation">
+                    <img src="tamaraw.png" height="107px" width="160px" alt="Tamaraw"/>
+                    <a href="https://github.com/TheClowder/tamaraw">A Go engine that helps you put together a super-flexible admin dashboard.</a>
+                </div>
+                <div class="creation">
+                    <img src="schemata.png" height="160px" width="160px" alt="Schemata"/>
+                    <a href="https://github.com/TheClowder/schemata">Schemata analyze your db and creates necessary models for your Buffalo project.</a>
+                </div>
+                <div class="creation">
+                    <a href="https://github.com/TheClowder/docker-buffalo">A Go Web Eco-System (dockerized).</a>
+                </div>
+            </div>
+            <div class="footer">
+                <img src="footer.png" height="88px" width="61px" alt="Ruco as Moises" />
+                <p>
+                    a collaboration of bunch of catz and two humans.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
